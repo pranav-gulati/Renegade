@@ -1,0 +1,19 @@
+{
+  "name": "Renegade",
+  "version": "0.1",
+  "manifest_version": 2,
+  
+  "description": "Quick notes from the omnibox",
+  
+  "permissions": [ "storage" ],
+  
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "omnibox": {
+    "keyword": "n"
+  },
+   "background": {
+    "scripts": ["popup.js", "ics.deps.min.js", "demo.js"]
+  }
+}

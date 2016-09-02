@@ -1,0 +1,146 @@
+html{
+	height: 500px;
+	width:  350px;
+}
+body{
+	height: 500px;
+	width:  350px;
+  	background-color: white;
+}
+h1{
+	color: grey;
+}
+h4{
+	color:grey;
+  	line-height: 130%;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 350px;
+}
+#buttons{
+  background-color:  #f2f2f2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 80px;
+  width: 100%;
+}
+#data{
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 80px;
+  color: #404040;
+}
+
+.link {
+  border-bottom: 2px dotted #55acee;
+  text-decoration: none;
+  color: #55acee;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+}
+
+.link:hover {
+  color: #2ecc71;
+  border-bottom: 2px dotted #2ecc71;
+}
+
+/* css for the shiny buttons */
+.btn {
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+.btn:hover {
+  cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+}
+.blue {
+  color: #55acee;
+  border: 2px #55acee solid;
+}
+
+.blue:hover {
+  background-color: #55acee;
+  color: #fff
+}
+.blue:active {
+  background-color: #55acee;
+  color: #fff
+}
+.green {
+  color: #2ecc71;
+  border: 2px #2ecc71 solid;
+}
+
+.green:hover {
+  color: #fff;
+  background-color: #2ecc71;
+}
+
+.red {
+  color: #e74c3c;
+  border: 2px #e74c3c solid;
+}
+
+.red:hover {
+  color: #fff;
+  background-color: #e74c3c;
+}
+
+.black {
+  color: black;
+  border: 2px navy solid;
+}
+
+.black:hover {
+  color: navy;
+  background-color: #9b59b6;
+}
+
+.orange {
+  color: #e67e22;
+  border: 2px #e67e22 solid;
+}
+
+.orange:hover {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.yellow {
+  color: #f1c40f;
+  border: 2px #f1c40f solid;
+}
+
+.yellow:hover {
+  color: #fff;
+  background-color: #f1c40f;
+}
+
+.buttons {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* copyright stuffs.. */
+p {
+  text-align: center;
+  color: #55acee;
+  padding-top: 20px;
+}
