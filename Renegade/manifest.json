@@ -15,5 +15,8 @@
   },
    "background": {
     "scripts": ["popup.js", "ics.deps.min.js", "demo.js"]
-  }
+  },
+  "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" }
 }
